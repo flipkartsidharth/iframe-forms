@@ -1,0 +1,21 @@
+!!! 5
+html(lang='en')
+  head
+    title Flipkart Seller Central 
+    meta(charset='utf-8')
+  body
+    div Hello World
+    div
+      form#form(action="/login", method="POST")
+        div
+          span Name
+          input(type="text", name="names")
+        div
+          span File
+          input(type='file', name='document', multiple='multiple')
+        div
+          button(type="submit") Login
+    script(src='js/jquery.js')
+    script(src='js/jquery.form.js')
+    script(src='js/jquery.validate.js')
+    script(src='js/script.js')
